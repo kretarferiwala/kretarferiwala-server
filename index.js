@@ -15,7 +15,7 @@ app.use(cors());
 // middleware
 app.use(
   cors({
-    origin: ["http://localhost:3000", "https://kretarferiwalaa.vercel.app"],
+    origin: ["http://localhost:3000", "https://kretarferiwala-server-seven.vercel.app"],
     credentials: true,
   })
 );
