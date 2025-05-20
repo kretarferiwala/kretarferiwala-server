@@ -70,7 +70,7 @@ function token(req, res, next) {
 
 async function run() {
   try {
-    // await client.connect();
+
 
     const allProducts = client.db("kfDB").collection("products");
     const allCategories = client.db("kfDB").collection("categories");
@@ -590,6 +590,15 @@ async function run() {
         res.status(500).json({ message: "Failed to update role" });
       }
     });
+
+
+
+
+// this code is not important
+
+
+
+
 
     // Connect the client to the server	(optional starting in v4.7)
 
